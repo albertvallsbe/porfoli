@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  color: #1c2853;
+}
+
+a {
+  color: #1c2853;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+header.main-name {
+  background-color: silver;
+  color: #8a001f;
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 18px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+section h2 {
+  color: #1c2853;
+  margin-bottom: 10px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+section.estudis ul,
+section.experiencia-laboral ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.footer {
+  background-color: silver;
+  color: #8a001f;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
