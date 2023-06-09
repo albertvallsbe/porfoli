@@ -62,6 +62,12 @@ section.experiencia-laboral ul {
   gap: 20px;
 }
 
+.marketify ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
 .footer {
   background-color: silver;
   color: #8a001f;
